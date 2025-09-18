@@ -142,7 +142,7 @@ std::vector<std::string> AddN(std::vector<std::string>, std::string n);
 // subtracts n to each element of the vector
 std::vector<int> SubtractN(std::vector<int> v, int n)
 {
-	for (int i = 0; i < v.size(); ++i) {
+	for (std::size_t i = 0; i < v.size(); ++i) {
 		v[i] -= n;
 	}
 
