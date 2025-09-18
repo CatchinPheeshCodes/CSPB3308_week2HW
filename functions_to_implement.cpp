@@ -101,7 +101,7 @@ double Product(std::vector<double> nums)
 {
 
 	double p = 1;
-	for(int i = 0; i < nums.size(); ++i) {
+	for(std::size_t i = 0; i < nums.size(); ++i) {
 		p *= nums[i];
 	}
 
